@@ -1,0 +1,221 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1A1A29;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    line-height: 42px;
+    color: #7562E0;
+    margin-left: 50px;
+    font-size: 28px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 50px;
+}
+
+.home {
+    color: #7562E0;
+}
+
+.navbar-sec {
+    color: #fff;
+}
+
+.page1 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.eelipse {
+    width: 300px;
+}
+
+.hello {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 10px;
+    color: #f5f5f5;
+}
+
+.desc {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    max-width: 400px;
+}
+
+.abt-btn {
+    background-color: #7562E0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 160px;
+    height: 48px;
+    
+}
+
+.pro-btn {
+    width: 159px;
+    height: 48px;
+    border: 2px solid #7562E0;
+    color: white;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.p1rectangle {
+    margin-top: 50px;
+}
+
+.abt-me {
+    width: 168px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #7562E0;
+}
+
+.bio {
+    max-width: 950px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.exper5 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.years5 {
+    width: 70px;
+    height: 55px;
+}
+
+.bla-bla-2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    line-height: 36px;
+}
+
+.skills {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.skill {
+    background-color: #bbb;
+    color: white;
+    text-align: center;
+    padding:50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.3s;
+}
+
+.uiux {
+    background-color: #6F4CD2;
+}
+
+.ui-blue {
+    background-color: #6F4CD2;
+}
+
+.ui-img {
+    background-color: #6F4CD2;
+}
+
+.greyrec {
+    background-color: #bbb;
+}
+
+.offer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #7562E0;
+    width: 310px;
+    height: 48px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 15px;
+}
+
+.offer-blue {
+    border: 3px solid #7562E0;
+    border-radius: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.offer-white {
+    border: 3px solid #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.head-blue {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #7562E0;
+}
+
+.head-white {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.lil-desc {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.grid-icons {
+    margin-top: 20px;
+    width: 50px;
+}
